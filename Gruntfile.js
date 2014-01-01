@@ -2,14 +2,25 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    copy: {
+    yaml: {
       api: {
+        options: {
+          space: 2,
+        },
+        files: {
+          'tmp/json/reforms.json': ['reforms.yml']
+        }
+      }
+    },
+
+    copy: {
+      assemble: {
         files: [
           {
             expand: true,
-            cwd: 'tmp/',
+            cwd: 'tmp/static',
             src: ['**/*json'],
-            dest: 'dist/',
+            dest: 'tmp/result/',
             rename: function(dest, src) {
               return dest + src.substring(0, src.lastIndexOf('/')) + "/index.json";
             }
@@ -18,6 +29,16 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'public/',
             src: ['.htaccess'],
+            dest: 'tmp/result'
+          }
+        ]
+      },
+      dist: {
+        files: [
+          {
+            expand: true,
+            cwd: 'tmp/result/',
+            src: ['**/*'],
             dest: 'dist/'
           }
         ]
@@ -33,7 +54,10 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-yaml');
 
-  grunt.registerTask('default', ['clean:dist', 'copy']);
+  grunt.registerTask('default', ['clean', 'prepare']);
+  grunt.registerTask('prepare', ['clean:tmp', 'yaml']);
+  grunt.registerTask('dist', ['clean:dist', 'copy:assemble', 'copy:dist']);
 
 }
