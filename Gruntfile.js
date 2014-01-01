@@ -22,6 +22,11 @@ module.exports = function(grunt) {
           }
         ]
       }
+    },
+
+    clean: {
+      dist: ['dist'],
+      tmp: ['tmp']
     }
 
   });
@@ -29,6 +34,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('default', ['copy']);
+  grunt.registerTask('default', ['clean:dist', 'copy']);
 
 }
