@@ -1,0 +1,12 @@
+# OS X
+.DS_Store
+
+# Vim
+.*.sw[a-z]
+
+# Node
+/node_modules
+
+# Project
+dist
+tmp
