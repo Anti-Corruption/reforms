@@ -57,3 +57,9 @@ When copying the `dist/` results into the webroot, take care not to miss any
 hidden files (specifically, `.htaccess`):
 
     cp -R dist/. /srv/www/reforms.example.org/public/
+
+### Development
+
+The API contents can be updated by editing the `reforms.yml` file and re-running
+the build process. Be certain to follow the established formatting. The indent
+style uses 2 spaces.
