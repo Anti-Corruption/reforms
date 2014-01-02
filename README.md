@@ -2,19 +2,20 @@
 
 ## Reforms
 
-This package provides a static API for the Anti-Corruption Reforms. The API offers resources using the following identifiers:
+This package provides a static API for the Anti-Corruption Reforms. The API
+offers a resource with the following identifiers:
 
-    reforms/{:country}/{:api-version}/{:reform-id}/{:reform-version}
+    reforms/{:reform-id}/{:reform-version}
 
 An example URL assuming the API has been deployed to localhost:
 
-    http://localhost/reforms/us/v1/publicly-funded-elections/1.0/
+    http://localhost/reforms/publicly-funded-elections/1.0/
 
 The static API returns results in JSON format, e.g:
 
     {
-      "version": "1.0",
       "id": "publicly-funded-elections",
+      "version": "1.0",
       "title": "Provide that public elections are publicly funded",
       "body": "Campaigns for public elections need to be publicly funded..."
     }
@@ -63,3 +64,10 @@ hidden files (specifically, `.htaccess`):
 The API contents can be updated by editing the `reforms.yml` file and re-running
 the build process. Be certain to follow the established formatting. The indent
 style uses 2 spaces.
+
+### TODO
+
+* Encapsulate the `static-api` build step as a Grunt task.
+* Develop an API that allows multiple countries and versioning, e.g.:
+
+    /reforms/{:country}/{:api-version}/{:reform-id}/{:reform-version}
