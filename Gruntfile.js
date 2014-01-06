@@ -1,5 +1,10 @@
 module.exports = function(grunt) {
+  var globalConfig = {
+    apiVersion: 'b1'
+  };
+
   grunt.initConfig({
+    globalConfig: globalConfig,
     pkg: grunt.file.readJSON('package.json'),
 
     yaml: {
@@ -18,18 +23,19 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'tmp/static',
-            src: ['**/*json'],
-            dest: 'tmp/result/',
-            rename: function(dest, src) {
-              return dest + src.substring(0, src.lastIndexOf('/')) + "/index.json";
-            }
+            dot: true,
+            cwd: 'public/',
+            src: ['**/*'],
+            dest: 'tmp/result'
           },
           {
             expand: true,
-            cwd: 'public/',
-            src: ['.htaccess'],
-            dest: 'tmp/result'
+            cwd: 'tmp/static',
+            src: ['**/*json'],
+            dest: 'tmp/result/us/<%= globalConfig.apiVersion  %>/',
+            rename: function(dest, src) {
+              return dest + src.substring(0, src.lastIndexOf('/')) + "/index.json";
+            }
           }
         ]
       },

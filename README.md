@@ -5,11 +5,11 @@
 This package provides a static API for the Anti-Corruption Reforms. The API
 offers a resource with the following identifiers:
 
-    reforms/{:reform-id}/{:reform-version}
+    {:country}/{:api-version}/reforms/{:reform-id}/{:reform-version}
 
 An example URL assuming the API has been deployed to localhost:
 
-    http://localhost/reforms/publicly-funded-elections/1.0/
+    http://localhost/us/b1/reforms/publicly-funded-elections/1.0/
 
 The static API returns results in JSON format, e.g:
 
@@ -19,6 +19,9 @@ The static API returns results in JSON format, e.g:
       "title": "Provide that public elections are publicly funded",
       "body": "Campaigns for public elections need to be publicly funded..."
     }
+
+***The API is currenly in Beta. All resources and fields may be modified,
+deprecated or removed without prior notice.***
 
 ### Requirements
 
@@ -68,6 +71,3 @@ style uses 2 spaces.
 ### TODO
 
 * Encapsulate the `static-api` build step as a Grunt task.
-* Develop an API that allows multiple countries and versioning, e.g.:
-
-    /reforms/{:country}/{:api-version}/{:reform-id}/{:reform-version}
