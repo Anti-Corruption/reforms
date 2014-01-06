@@ -32,6 +32,14 @@ module.exports = function(grunt) {
       }
     },
 
+    react: {
+      main: {
+        files: {
+            'tmp/result/js/reforms.js': 'jsx/reforms.jsx'
+        }
+      }
+    },
+
     copy: {
       assemble: {
         files: [
@@ -43,7 +51,6 @@ module.exports = function(grunt) {
             src: ['**/*'],
             dest: 'tmp/result'
           },
-          { expand: true, cwd: 'jsx/', src: ['**'], dest: 'tmp/result/js/'},
           {
             expand: true,
             cwd: 'tmp/static',
@@ -82,7 +89,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-react');
 
   grunt.registerTask('default', ['clean', 'prepare']);
-  grunt.registerTask('prepare', ['clean:tmp', 'yaml', 'sass']);
+  grunt.registerTask('prepare', ['clean:tmp', 'yaml', 'sass', 'react']);
   grunt.registerTask('dist', ['clean:dist', 'copy:assemble', 'copy:dist']);
 
 }
