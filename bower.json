@@ -1,0 +1,7 @@
+{
+  "name": "anti-corruption/reforms",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "react": "~0.8.0"
+  }
+}
