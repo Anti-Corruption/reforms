@@ -1,0 +1,161 @@
+@import "settings";
+@import "foundation";
+
+html, body {
+  min-width: 320px;
+}
+
+.ac-logo {
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+
+  .ac-icon {
+    background-image: url('../img/icon.png');
+    background-repeat: no-repeat;
+    background-size: 128px 128px;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+  }
+
+  .strapline {
+    font-size: $header-font-size;
+  }
+
+}
+
+.top-bar {
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid $secondary-color;
+}
+
+.top-bar-section {
+  ul li {
+    &.active > a {
+    &:hover {
+      color: $topbar-link-color-active-hover;
+    }
+    }
+  }
+}
+
+.fa-chevron-right {
+  position: relative;
+  top: 0.08em;
+}
+
+.subheader {
+  font-family: $subheader-font-family;
+}
+
+fieldset {
+  legend {
+      font-family: $legend-font-family;
+      font-size: $legend-font-size;
+      text-transform: lowercase;
+  }
+}
+
+input.helper,
+textarea.helper {
+  margin-bottom: 0;
+}
+
+span.helper, small.helper {
+  @include form-error-message($body-font-color)
+}
+
+.ac-legislator {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $secondary-color;
+
+  .avatar {
+    float: left;
+    top: 3px;
+    margin-right: 25px;
+  }
+
+  .name {
+    display: inline;
+    margin-top: 0;
+    line-height: 1;
+    margin-right: 0.5rem;
+  }
+
+  .title {
+    color: $small-font-color;
+    font-family: $subheader-font-family;
+  }
+
+  .contact {
+    font-family: $header-font-family;
+  }
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.img-circle {
+  @include radius(50%);
+}
+
+@media #{$medium-up} {
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .avatar.party-R:after {
+    content: " ";
+    position: absolute;
+    background-color: rgba(255, 125, 125, 0.4);
+    width: 100px;
+    height: 100px;
+    @include radius(50%);
+  }
+
+  .avatar.party-D:after {
+    content: " ";
+    position: absolute;
+    background-color: rgba(125, 125, 255, 0.4);
+    width: 100px;
+    height: 100px;
+    @include radius(50%);
+  }
+
+  .avatar.party-I:after {
+    content: " ";
+    position: absolute;
+    background-color: rgba(255, 50, 255, 0.4);
+    width: 100px;
+    height: 100px;
+    @include radius(50%);
+  }
+
+  .ac-legislator {
+    padding-bottom: 1rem;
+    .name {
+      display: block;
+      margin: 18px 0 4px 0;
+    }
+  }
+
+  .contact {
+    margin-top: 18px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+.ac-logo {
+  .ac-icon {
+    background-image: url('../img/icon-2x.png');
+  }
+}
+
+}
