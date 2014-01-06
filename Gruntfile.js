@@ -79,6 +79,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-yaml');
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-react');
 
   grunt.registerTask('default', ['clean', 'prepare']);
   grunt.registerTask('prepare', ['clean:tmp', 'yaml', 'sass']);
