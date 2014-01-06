@@ -17,7 +17,13 @@ The static API returns results in JSON format, e.g:
       "id": "publicly-funded-elections",
       "version": "1.0",
       "title": "Provide that public elections are publicly funded",
-      "body": "Campaigns for public elections need to be publicly funded..."
+      "description": "Campaigns for public elections need to be publicly funded...",
+      "sponsor": {
+        "name": "Sponsor Name",
+        "bioguide_id": "X000123"
+      },
+      "bill_id": "xx1111-222"
+      "url": "http://example.com/"
     }
 
 ***The API is currenly in Beta. All resources and fields may be modified,

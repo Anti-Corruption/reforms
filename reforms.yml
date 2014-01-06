@@ -5,22 +5,34 @@ reforms:
       id: independent-political-expenditures
       version: "1.0"
       title: "Limit, and make transparent, independent political expenditures"
-      body: "The Supreme Court has given corporations and individuals the right to spend unlimited amounts in a campaign. Congress should have the power to at least limit those expenditures."
+      decription: "The Supreme Court has given corporations and individuals the right to spend unlimited amounts in a campaign. Congress should have the power to at least limit those expenditures."
+      sponsor: []
+      bill_id: ""
+      url: ""
   publicly-funded-elections:
     "1.0":
       id: publicly-funded-elections
       version: "1.0"
       title: "Provide that public elections are publicly funded"
-      body: "Campaigns for public elections need to be publicly funded. Whether through vouchers funded by tax rebates that citizens can donate to candidates, or a system to multiply small dollar contributions, we need campaigns funded by all of us, and not just a tiny fraction of the 1%."
+      description: "Campaigns for public elections need to be publicly funded. Whether through vouchers funded by tax rebates that citizens can donate to candidates, or a system to multiply small dollar contributions, we need campaigns funded by all of us, and not just a tiny fraction of the 1%."
+      sponsor: []
+      bill_id: ""
+      url: ""
   congress-and-k-street:
     "1.0":
       id: congress-and-k-street
       version: "1.0"
       title: "Close the revolving door between Congress and K Street"
-      body: "When they retire, many members of Congress pass through the 'revolving door' to become lobbyists with multimillion dollar salaries. Lobbying firms promise these lucrative salaries to lawmakers who bend their views in the lobbyists’ favor. To close the revolving door, members of Congress should have to wait at least ten years before they are allowed to work as lobbyists."
+      description: "When they retire, many members of Congress pass through the 'revolving door' to become lobbyists with multimillion dollar salaries. Lobbying firms promise these lucrative salaries to lawmakers who bend their views in the lobbyists’ favor. To close the revolving door, members of Congress should have to wait at least ten years before they are allowed to work as lobbyists."
+      sponsor: []
+      bill_id: ""
+      url: ""
   natural-persons:
     "1.0":
       id: natural-persons
       version: "1.0"
       title: "Reaffirm that when the Declaration of Independence spoke of entities 'endowed by their Creator with certain unalienable Rights,' it was speaking of natural persons only."
-      body: "The Supreme Court has give artificial entities, like corporations, constitutional rights. But constitutional rights should be reserved to persons, only. A collective has the rights of the people within it, but no more."
+      description: "The Supreme Court has give artificial entities, like corporations, constitutional rights. But constitutional rights should be reserved to persons, only. A collective has the rights of the people within it, but no more."
+      sponsor: []
+      bill_id: ""
+      url: ""
