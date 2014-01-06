@@ -33,6 +33,7 @@ deprecated or removed without prior notice.***
 
 * Node.js
 * Grunt - `npm install -g grunt-cli`
+* Bower - `npm install -g bower`
 * static-api - `npm install -g static-api`
 * Apache
 
@@ -43,6 +44,7 @@ serve `.json` files as `application/json`.
 
     git clone git@github.com:Anti-Corruption/reforms.git .
     npm install
+    bower install
 
 ### Building
 
