@@ -18,9 +18,24 @@ module.exports = function(grunt) {
       }
     },
 
+    sass: {
+      options: {
+        includePaths: ['vendor/foundation/scss']
+      },
+      dist: {
+        options: {
+          outputStyle: 'compressed'
+        },
+        files: {
+          'tmp/result/css/app.css': 'scss/app.scss'
+        }
+      }
+    },
+
     copy: {
       assemble: {
         files: [
+          { expand: true, src: ['vendor/**'], dest: 'tmp/result'},
           {
             expand: true,
             dot: true,
@@ -62,9 +77,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-yaml');
+  grunt.loadNpmTasks('grunt-sass');
 
   grunt.registerTask('default', ['clean', 'prepare']);
-  grunt.registerTask('prepare', ['clean:tmp', 'yaml']);
+  grunt.registerTask('prepare', ['clean:tmp', 'yaml', 'sass']);
   grunt.registerTask('dist', ['clean:dist', 'copy:assemble', 'copy:dist']);
 
 }
