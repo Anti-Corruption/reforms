@@ -1,38 +1,46 @@
 ---
 reforms:
-  independent-political-expenditures:
+  of-the-people-act:
     "1.0":
-      id: independent-political-expenditures
+      id: "of-the-people-act"
       version: "1.0"
-      title: "Limit, and make transparent, independent political expenditures"
-      decription: "The Supreme Court has given corporations and individuals the right to spend unlimited amounts in a campaign. Congress should have the power to at least limit those expenditures."
-      sponsor: []
+      title: "Of the People Act"
+      description: "System to support small dollar funded elections in February"
+      sponsor:
+        name: "Congressman John Sarbanes (D-MD)"
+        bioguide_id: "S001168"
       bill_id: ""
       url: ""
-  publicly-funded-elections:
+  citizen-involvement-in-campaigns-act:
     "1.0":
-      id: publicly-funded-elections
+      id: "citizen-involvement-in-campaigns-act"
       version: "1.0"
-      title: "Provide that public elections are publicly funded"
-      description: "Campaigns for public elections need to be publicly funded. Whether through vouchers funded by tax rebates that citizens can donate to candidates, or a system to multiply small dollar contributions, we need campaigns funded by all of us, and not just a tiny fraction of the 1%."
-      sponsor: []
-      bill_id: ""
+      title: "Citizen Involvement in Campaigns Act"
+      description: "Tax credit and deductions for small contributions to political campaigns"
+      sponsor:
+        name: "Congressman Tom Petri (R-WI)"
+        bioguide_id: "P000265"
+      bill_id: "hr3586-113"
       url: ""
-  congress-and-k-street:
+  the-american-anticorruption-act:
     "1.0":
-      id: congress-and-k-street
+      id: "the-american-anticorruption-act"
       version: "1.0"
-      title: "Close the revolving door between Congress and K Street"
-      description: "When they retire, many members of Congress pass through the 'revolving door' to become lobbyists with multimillion dollar salaries. Lobbying firms promise these lucrative salaries to lawmakers who bend their views in the lobbyists’ favor. To close the revolving door, members of Congress should have to wait at least ten years before they are allowed to work as lobbyists."
-      sponsor: []
+      title: "The American Anticorruption Act"
+      description: "Fundamental lobbying reform, and funding for small dollar funded campaigns"
+      sponsor:
+        name: "Represent.US"
+        bioguide_id: ""
       bill_id: ""
-      url: ""
-  natural-persons:
+      url: "http://anticorruptionact.org/"
+  taxation-only-with-representation-act:
     "1.0":
-      id: natural-persons
+      id: "taxation-only-with-representation-act"
       version: "1.0"
-      title: "Reaffirm that when the Declaration of Independence spoke of entities 'endowed by their Creator with certain unalienable Rights,' it was speaking of natural persons only."
-      description: "The Supreme Court has give artificial entities, like corporations, constitutional rights. But constitutional rights should be reserved to persons, only. A collective has the rights of the people within it, but no more."
-      sponsor: []
+      title: "Taxation Only With Representation Act"
+      description: "$200 voucher to support small dollar funded campaigns"
+      sponsor:
+        name: "Richard Painter"
+        bioguide_id: ""
       bill_id: ""
-      url: ""
+      url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
