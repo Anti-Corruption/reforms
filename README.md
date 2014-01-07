@@ -9,13 +9,11 @@ offers a resource with the following identifiers:
 
 An example URL assuming the API has been deployed to localhost:
 
-    http://localhost/us/b1/reforms/publicly-funded-elections/1.0/
+    http://localhost/us/b2/reforms/9876/1.0/
 
 The static API returns results in JSON format, e.g:
 
     {
-      "id": "publicly-funded-elections",
-      "version": "1.0",
       "title": "Provide that public elections are publicly funded",
       "description": "Campaigns for public elections need to be publicly funded...",
       "sponsor": {

@@ -1,20 +1,18 @@
 ---
 reforms:
-  of-the-people-act:
+  -
+    id: 0
     "1.0":
-      id: "of-the-people-act"
-      version: "1.0"
       title: "Of the People Act"
-      description: "System to support small dollar funded elections in February"
+      description: "System to support small dollar funded elections"
       sponsor:
         name: "Congressman John Sarbanes (D-MD)"
         bioguide_id: "S001168"
       bill_id: ""
       url: ""
-  citizen-involvement-in-campaigns-act:
+  -
+    id: 1
     "1.0":
-      id: "citizen-involvement-in-campaigns-act"
-      version: "1.0"
       title: "Citizen Involvement in Campaigns Act"
       description: "Tax credit and deductions for small contributions to political campaigns"
       sponsor:
@@ -22,10 +20,9 @@ reforms:
         bioguide_id: "P000265"
       bill_id: "hr3586-113"
       url: ""
-  the-american-anticorruption-act:
+  -
+    id: 2
     "1.0":
-      id: "the-american-anticorruption-act"
-      version: "1.0"
       title: "The American Anticorruption Act"
       description: "Fundamental lobbying reform, and funding for small dollar funded campaigns"
       sponsor:
@@ -33,10 +30,9 @@ reforms:
         bioguide_id: ""
       bill_id: ""
       url: "http://anticorruptionact.org/"
-  taxation-only-with-representation-act:
+  -
+    id: 3
     "1.0":
-      id: "taxation-only-with-representation-act"
-      version: "1.0"
       title: "Taxation Only With Representation Act"
       description: "$200 voucher to support small dollar funded campaigns"
       sponsor:
