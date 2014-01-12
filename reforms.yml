@@ -4,6 +4,7 @@ reforms:
     id: 0
     "1.0":
       title: "Of the People Act"
+      slug: "of-the-people-act"
       description: "System to support small dollar funded elections"
       sponsor:
         name: "Congressman John Sarbanes (D-MD)"
@@ -14,6 +15,7 @@ reforms:
     id: 1
     "1.0":
       title: "Citizen Involvement in Campaigns Act"
+      slug: "citizen-involement-in-campaigns-act"
       description: "Tax credit and deductions for small contributions to political campaigns"
       sponsor:
         name: "Congressman Tom Petri (R-WI)"
@@ -24,6 +26,7 @@ reforms:
     id: 2
     "1.0":
       title: "The American Anticorruption Act"
+      slug: "the-american-anticorruption-act"
       description: "Fundamental lobbying reform, and funding for small dollar funded campaigns"
       sponsor:
         name: "Represent.US"
@@ -33,6 +36,7 @@ reforms:
   -
     id: 3
     "1.0":
+      slug: "taxation-only-with-representation-act"
       title: "Taxation Only With Representation Act"
       description: "$200 voucher to support small dollar funded campaigns"
       sponsor:
@@ -40,3 +44,13 @@ reforms:
         bioguide_id: ""
       bill_id: ""
       url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
+reformers:
+  -
+    id: 0
+    bioguide_id: "S001168"
+    reforms: [0]
+  -
+    id: 1
+    bioguide_id: "P000265"
+    reforms: [1]
+
