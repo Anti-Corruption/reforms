@@ -21,7 +21,7 @@ reforms:
         name: "Congressman Tom Petri (R-WI)"
         bioguide_id: "P000265"
       bill_id: "hr3586-113"
-      url: ""
+      url: "http://beta.congress.gov/bill/113th/house-bill/3586"
   -
     id: 2
     "1.0":
