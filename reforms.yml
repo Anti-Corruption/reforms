@@ -11,6 +11,7 @@ reforms:
         bioguide_id: "S001168"
       bill_id: ""
       url: ""
+      reform_type: "legislative"
   -
     id: 1
     "1.0":
@@ -22,6 +23,7 @@ reforms:
         bioguide_id: "P000265"
       bill_id: "hr3586-113"
       url: "http://beta.congress.gov/bill/113th/house-bill/3586"
+      reform_type: "legislative"
   -
     id: 2
     "1.0":
@@ -33,6 +35,7 @@ reforms:
         bioguide_id: ""
       bill_id: ""
       url: "http://anticorruptionact.org/"
+      reform_type: "legislative"
   -
     id: 3
     "1.0":
@@ -44,6 +47,7 @@ reforms:
         bioguide_id: ""
       bill_id: ""
       url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
+      reform_type: "legislative"
 reformers:
   -
     id: 0
@@ -53,4 +57,3 @@ reformers:
     id: 1
     bioguide_id: "P000265"
     reforms: [1]
-
