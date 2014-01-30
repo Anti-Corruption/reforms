@@ -45,6 +45,7 @@ var ReformsList = React.createClass({
         sponsor={version.sponsor}
         billId={version.bill_id}
         url={version.url}
+		type={version.reform_type}
         />
     });
     return (
@@ -58,9 +59,18 @@ var ReformsList = React.createClass({
 
 var Reform = React.createClass({
   render: function() {
+	headerStyle = {
+	lineHeight: 1
+	};
+	typeStyle = {
+	textTransform: 'uppercase'
+	};
     return (
       <div>
-        <h3>{this.props.title}</h3>
+        <h3 style={headerStyle}>
+			{this.props.title} {' '}
+			<small style={typeStyle}>{this.props.type} { ' ' } Reform</small>
+		</h3>
         <p>
           <strong>
             {this.props.description}.{' '}
