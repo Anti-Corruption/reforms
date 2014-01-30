@@ -20,8 +20,8 @@ The static API returns results in JSON format, e.g:
         "name": "Sponsor Name",
         "bioguide_id": "X000123"
       },
-      "bill_id": "xx1111-222"
-      "url": "http://example.com/"
+      "bill_id": "xx1111-222",
+      "url": "http://example.com/",
       "reform_type": "constitutional"
     }
 
