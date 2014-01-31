@@ -12,6 +12,7 @@ reforms:
       bill_id: ""
       url: ""
       reform_type: "legislative"
+      reform_status: "proposed"
   -
     id: 1
     "1.0":
@@ -24,6 +25,7 @@ reforms:
       bill_id: "hr3586-113"
       url: "http://beta.congress.gov/bill/113th/house-bill/3586"
       reform_type: "legislative"
+      reform_status: "introduced"
   -
     id: 2
     "1.0":
@@ -36,6 +38,7 @@ reforms:
       bill_id: ""
       url: "http://anticorruptionact.org/"
       reform_type: "legislative"
+      reform_status: "proposed"
   -
     id: 3
     "1.0":
@@ -48,6 +51,7 @@ reforms:
       bill_id: ""
       url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
       reform_type: "legislative"
+      reform_status: "proposed"
 reformers:
   -
     id: 0
