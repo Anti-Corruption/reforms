@@ -3,9 +3,9 @@ reforms:
   -
     id: 0
     "1.0":
-      title: "Of the People Act"
-      slug: "of-the-people-act"
-      description: "System to support small dollar funded elections"
+      title: "The Government By the People Act"
+      slug: "government-by-the-people-act"
+      description: "Building a Government Of, By and For the People"
       sponsor:
         name: "Congressman John Sarbanes (D-MD)"
         bioguide_id: "S001168"
@@ -61,3 +61,7 @@ reformers:
     id: 1
     bioguide_id: "P000265"
     reforms: [1]
+  -
+    id: 2
+    bioguide_id: "P000197"
+    reforms: [0]
