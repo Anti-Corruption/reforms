@@ -9,7 +9,7 @@ reforms:
       sponsor:
         name: "Congressman John Sarbanes (D-MD)"
         bioguide_id: "S001168"
-      bill_id: "hr-113"
+      bill_id: "hr20-113"
       url: "http://ofby.us"
       reform_type: "legislative"
       reform_status: "introduced"
