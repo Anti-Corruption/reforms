@@ -3,16 +3,16 @@ reforms:
   -
     id: 0
     "1.0":
-      title: "The Government By the People Act"
+      title: "Government By the People Act"
       slug: "government-by-the-people-act"
       description: "Building a Government Of, By and For the People"
       sponsor:
         name: "Congressman John Sarbanes (D-MD)"
         bioguide_id: "S001168"
-      bill_id: ""
+      bill_id: "hr-113"
       url: "http://ofby.us"
       reform_type: "legislative"
-      reform_status: "proposed"
+      reform_status: "introduced"
   -
     id: 1
     "1.0":
