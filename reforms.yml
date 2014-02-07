@@ -17,7 +17,7 @@ reforms:
     id: 1
     "1.0":
       title: "Citizen Involvement in Campaigns Act"
-      slug: "citizen-involement-in-campaigns-act"
+      slug: "citizen-involvement-in-campaigns-act"
       description: "Tax credit and deductions for small contributions to political campaigns"
       sponsor:
         name: "Congressman Tom Petri (R-WI)"
