@@ -9,7 +9,7 @@ offers a resource with the following identifiers:
 
 An example URL assuming the API has been deployed to localhost:
 
-    http://localhost/us/b3/reforms/9876/
+    http://localhost/us/b4/reforms/9876/
 
 The static API returns results in JSON format, e.g:
 
@@ -17,11 +17,13 @@ The static API returns results in JSON format, e.g:
       "title": "Provide that public elections are publicly funded",
       "description": "Campaigns for public elections need to be publicly funded...",
       "sponsor": {
-        "name": "Sponsor Name",
-        "bioguide_id": "X000123"
+        "first_name": "First",
+        "last_name": "Last",
+        "bioguide_id": "X000123",
+        "website": "http://example.com/sponsor"
       },
       "bill_id": "xx1111-222",
-      "url": "http://example.com/",
+      "url": "http://example.com/bill",
       "reform_type": "constitutional",
       "reform_status": "proposed"
     }

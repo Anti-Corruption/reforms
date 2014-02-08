@@ -4,7 +4,7 @@
 
 var Reforms = React.createClass({
   getInitialState: function() {
-    var apiVersion = 'b3';
+    var apiVersion = 'b4';
     var reformsURL = '/us/' + apiVersion;
 
     $.ajax({
@@ -84,6 +84,8 @@ var ReformsList = React.createClass({
 
 var Reform = React.createClass({
   render: function() {
+    var sponsor = this.props.sponsor;
+    sponsorName = [sponsor.title, sponsor.first_name, sponsor.last_name].join(" ");
     statusStyle = {
       textTransform: "uppercase",
     };
@@ -100,7 +102,7 @@ var Reform = React.createClass({
           <strong>
             {this.props.description}.{' '}
           </strong>
-          {this.props.sponsor.name ? "Sponsored by " + this.props.sponsor.name + '.'  : ''}{' '}
+          {sponsorName ? "Sponsored by " + sponsorName + '.'  : ''}{' '}
           <a href={this.props.url}>
             {this.props.url ? "Learn More" : ''}
           </a>
