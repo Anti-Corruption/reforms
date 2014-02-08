@@ -2,66 +2,49 @@
 reforms:
   -
     id: 0
-    "1.0":
-      title: "Government By the People Act"
-      slug: "government-by-the-people-act"
-      description: "Building a Government Of, By and For the People"
-      sponsor:
-        name: "Congressman John Sarbanes (D-MD)"
-        bioguide_id: "S001168"
-      bill_id: "hr20-113"
-      url: "http://ofby.us"
-      reform_type: "legislative"
-      reform_status: "introduced"
+    title: "Government By the People Act"
+    slug: "government-by-the-people-act"
+    description: "Building a Government Of, By and For the People"
+    sponsor:
+      name: "Congressman John Sarbanes (D-MD)"
+      bioguide_id: "S001168"
+    bill_id: "hr20-113"
+    url: "http://ofby.us"
+    reform_type: "legislative"
+    reform_status: "introduced"
   -
     id: 1
-    "1.0":
-      title: "Citizen Involvement in Campaigns Act"
-      slug: "citizen-involvement-in-campaigns-act"
-      description: "Tax credit and deductions for small contributions to political campaigns"
-      sponsor:
-        name: "Congressman Tom Petri (R-WI)"
-        bioguide_id: "P000265"
-      bill_id: "hr3586-113"
-      url: "http://beta.congress.gov/bill/113th/house-bill/3586"
-      reform_type: "legislative"
-      reform_status: "introduced"
+    title: "Citizen Involvement in Campaigns Act"
+    slug: "citizen-involvement-in-campaigns-act"
+    description: "Tax credit and deductions for small contributions to political campaigns"
+    sponsor:
+      name: "Congressman Tom Petri (R-WI)"
+      bioguide_id: "P000265"
+    bill_id: "hr3586-113"
+    url: "http://beta.congress.gov/bill/113th/house-bill/3586"
+    reform_type: "legislative"
+    reform_status: "introduced"
   -
     id: 2
-    "1.0":
-      title: "The American Anticorruption Act"
-      slug: "the-american-anticorruption-act"
-      description: "Fundamental lobbying reform, and funding for small dollar funded campaigns"
-      sponsor:
-        name: "Represent.US"
-        bioguide_id: ""
-      bill_id: ""
-      url: "http://anticorruptionact.org/"
-      reform_type: "legislative"
-      reform_status: "proposed"
+    title: "The American Anticorruption Act"
+    slug: "the-american-anticorruption-act"
+    description: "Fundamental lobbying reform, and funding for small dollar funded campaigns"
+    sponsor:
+      name: "Represent.US"
+      bioguide_id: ""
+    bill_id: ""
+    url: "http://anticorruptionact.org/"
+    reform_type: "legislative"
+    reform_status: "proposed"
   -
     id: 3
-    "1.0":
-      slug: "taxation-only-with-representation-act"
-      title: "Taxation Only With Representation Act"
-      description: "$200 voucher to support small dollar funded campaigns"
-      sponsor:
-        name: "Richard Painter"
-        bioguide_id: ""
-      bill_id: ""
-      url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
-      reform_type: "legislative"
-      reform_status: "proposed"
-reformers:
-  -
-    id: 0
-    bioguide_id: "S001168"
-    reforms: [0]
-  -
-    id: 1
-    bioguide_id: "P000265"
-    reforms: [1]
-  -
-    id: 2
-    bioguide_id: "P000197"
-    reforms: [0]
+    slug: "taxation-only-with-representation-act"
+    title: "Taxation Only With Representation Act"
+    description: "$200 voucher to support small dollar funded campaigns"
+    sponsor:
+      name: "Richard Painter"
+      bioguide_id: ""
+    bill_id: ""
+    url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
+    reform_type: "legislative"
+    reform_status: "proposed"

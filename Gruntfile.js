@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
   var globalConfig = {
-    apiVersion: 'b2'
+    apiVersion: 'b3'
   };
 
   grunt.initConfig({

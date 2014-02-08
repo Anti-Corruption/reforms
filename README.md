@@ -5,11 +5,11 @@
 This package provides a static API for the Anti-Corruption Reforms. The API
 offers a resource with the following identifiers:
 
-    {:country}/{:api-version}/reforms/{:reform-id}/{:reform-version}
+    {:country}/{:api-version}/reforms/{:reform-id}/
 
 An example URL assuming the API has been deployed to localhost:
 
-    http://localhost/us/b2/reforms/9876/1.0/
+    http://localhost/us/b3/reforms/9876/
 
 The static API returns results in JSON format, e.g:
 

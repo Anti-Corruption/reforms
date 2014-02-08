@@ -4,7 +4,7 @@
 
 var Reforms = React.createClass({
   getInitialState: function() {
-    var apiVersion = 'b2';
+    var apiVersion = 'b3';
     var reformsURL = '/us/' + apiVersion;
 
     $.ajax({
@@ -14,16 +14,15 @@ var Reforms = React.createClass({
         // Organize the reforms by type
         var reforms_by_type = {};
 
-        data.reforms.forEach(function(element, index, array) {
-          var version = element['1.0'];
-          var type = version.reform_type;
+        data.reforms.forEach(function(reform, index, array) {
+          var type = reform.reform_type;
 
           // Create an object to hold reforms for this type
           if (!reforms_by_type.hasOwnProperty(type)) {
             reforms_by_type[type] = { type: type, reforms: [] }
           }
 
-          reforms_by_type[type].reforms.push(element);
+          reforms_by_type[type].reforms.push(reform);
 
         });
 
@@ -63,16 +62,15 @@ var ReformsList = React.createClass({
   },
   render: function() {
     var reformNodes = this.props.reforms.map(function (reform) {
-      var version = reform['1.0'];
       return <Reform
         key={reform.id}
-        title={version.title}
-        description={version.description}
-        sponsor={version.sponsor}
-        billId={version.bill_id}
-        url={version.url}
-        type={version.reform_type}
-        status={version.reform_status}
+        title={reform.title}
+        description={reform.description}
+        sponsor={reform.sponsor}
+        billId={reform.bill_id}
+        url={reform.url}
+        type={reform.reform_type}
+        status={reform.reform_status}
         />
     });
     return (
