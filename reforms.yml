@@ -42,7 +42,6 @@ reforms:
     sponsor:
       first_name: "Represent.US"
       website: "https://represent.us/"
-      bioguide_id: ""
     bill_id: ""
     url: "http://anticorruptionact.org/"
     reform_type: "legislative"
@@ -55,7 +54,7 @@ reforms:
     sponsor:
       first_name: "Richard"
       last_name: "Painter"
-      bioguide_id: "http://www.law.umn.edu/facultyprofiles/painterr.html"
+      website: "http://www.law.umn.edu/facultyprofiles/painterr.html"
     bill_id: ""
     url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
     reform_type: "legislative"
