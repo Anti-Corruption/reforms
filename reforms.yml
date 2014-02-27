@@ -59,3 +59,20 @@ reforms:
     url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
     reform_type: "legislative"
     reform_status: "proposed"
+  -
+    id: 4
+    title: "Fair Elections Now Act"
+    slug: "fair-elections-now-act"
+    description: "Amends the Federal Election Campaign Act of 1971"
+    sponsor:
+      title: "Rep"
+      first_name: "John"
+      last_name: "Yarmuth"
+      state: "KY"
+      party: "D"
+      bioguide_id: "Y000062"
+      website: "http://yarmuth.house.gov/"
+    bill_id: "hr269-113"
+    url: "http://beta.congress.gov/bill/113th-congress/house-bill/269"
+    reform_type: "legislative"
+    reform_status: "introduced"
