@@ -76,3 +76,20 @@ reforms:
     url: "http://beta.congress.gov/bill/113th-congress/house-bill/269"
     reform_type: "legislative"
     reform_status: "introduced"
+  -
+    id: 5
+    title: "Fair Elections Now Act"
+    slug: "fair-elections-now-act-senate"
+    description: "Reform the financing of Senate elections"
+    sponsor:
+      title: "Sen"
+      first_name: "Richard"
+      last_name: "Durbin"
+      state: "IL"
+      party: "D"
+      bioguide_id: "D000563"
+      website: "http://www.durbin.senate.gov/"
+    bill_id: "s2023-113"
+    url: "http://beta.congress.gov/bill/113th-congress/senate-bill/2023/"
+    reform_type: "legislative"
+    reform_status: "introduced"
