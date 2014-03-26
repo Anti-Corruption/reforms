@@ -1,0 +1,92 @@
+{
+    "collection": {
+        "version": "1.0",
+        "href": "http://reforms.fabricatorz.com/reformers",
+        "items": [
+            {
+                "href": "http://reform.to/#/legislators/S001168",
+                "data": [
+                    {
+                        "name": "first_name",
+                        "value": "John",
+                        "prompt": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "value": "Sarbanes",
+                        "prompt": "Last Name"
+                    },
+                    {
+                        "name": "bioguide_id",
+                        "value": "S001168",
+                        "prompt": "Bioguide ID"
+                    }
+                ],
+                "links": [
+                    {
+                        "rel": "badge",
+                        "href": "http://reform.to/img/badges/ac-32x32.png",
+                        "prompt": "Badge",
+                        "render": "image"
+                    }
+                ]
+            },
+            {
+                "href": "http://reform.to/#/legislators/Y000062",
+                "data": [
+                    {
+                        "name": "first_name",
+                        "value": "John",
+                        "prompt": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "value": "Yarmuth",
+                        "prompt": "Last Name"
+                    },
+                    {
+                        "name": "bioguide_id",
+                        "value": "Y000062",
+                        "prompt": "Bioguide ID"
+                    }
+                ],
+                "links": [
+                    {
+                        "rel": "badge",
+                        "href": "http://reform.to/img/badges/ac-32x32.png",
+                        "prompt": "Badge",
+                        "render": "image"
+                    }
+                ]
+            },
+            {
+                "href": "http://reform.to/#/legislators/F000062",
+                "data": [
+                    {
+                        "name": "first_name",
+                        "value": "Dianne",
+                        "prompt": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "value": "Feinstein",
+                        "prompt": "Last Name"
+                    },
+                    {
+                        "name": "bioguide_id",
+                        "value": "F000062",
+                        "prompt": "Bioguide ID"
+                    }
+                ],
+                "links": [
+                    {
+                        "rel": "badge",
+                        "href": "http://reform.to/img/badges/dc-32x32.png",
+                        "prompt": "Badge",
+                        "render": "image"
+                    }
+                ]
+            }
+        ]
+    }
+}
