@@ -13,7 +13,7 @@ reforms:
       party: "D"
       bioguide_id: "S001168"
       website: "http://sarbanes.house.gov"
-    bill_id: "hr20-113"
+    bills: ["hr20-113"]
     url: "http://ofby.us"
     reform_type: "legislative"
     reform_topic: "matching funds, tax credit, vouchers"
@@ -31,7 +31,7 @@ reforms:
       party: "R"
       bioguide_id: "P000265"
       website: "http://petri.house.gov"
-    bill_id: "hr3586-113"
+    bills: ["hr3586-113"]
     url: "http://beta.congress.gov/bill/113th/house-bill/3586"
     reform_type: "legislative"
     reform_topic: "tax credit"
@@ -44,7 +44,7 @@ reforms:
     sponsor:
       first_name: "Represent.US"
       website: "https://represent.us/"
-    bill_id: ""
+    bills: []
     url: "http://anticorruptionact.org/"
     reform_type: "legislative"
     reform_topic: "vouchers & lobbying reform"
@@ -58,7 +58,7 @@ reforms:
       first_name: "Richard"
       last_name: "Painter"
       website: "http://www.law.umn.edu/facultyprofiles/painterr.html"
-    bill_id: ""
+    bills: []
     url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
     reform_type: "legislative"
     reform_topic: "vouchers"
@@ -68,34 +68,7 @@ reforms:
     title: "Fair Elections Now Act"
     slug: "fair-elections-now-act"
     description: "Amends the Federal Election Campaign Act of 1971"
-    sponsor:
-      title: "Rep"
-      first_name: "John"
-      last_name: "Yarmuth"
-      state: "KY"
-      party: "D"
-      bioguide_id: "Y000062"
-      website: "http://yarmuth.house.gov/"
-    bill_id: "hr269-113"
-    url: "http://beta.congress.gov/bill/113th-congress/house-bill/269"
-    reform_type: "legislative"
-    reform_topic: "matching funds"
-    reform_status: "introduced"
-  -
-    id: 5
-    title: "Fair Elections Now Act"
-    slug: "fair-elections-now-act-senate"
-    description: "Reform the financing of Senate elections"
-    sponsor:
-      title: "Sen"
-      first_name: "Richard"
-      last_name: "Durbin"
-      state: "IL"
-      party: "D"
-      bioguide_id: "D000563"
-      website: "http://www.durbin.senate.gov/"
-    bill_id: "s2023-113"
-    url: "http://beta.congress.gov/bill/113th-congress/senate-bill/2023/"
+    bills: ["hr269-113", "s2023-113"]
     reform_type: "legislative"
     reform_topic: "matching funds"
     reform_status: "introduced"

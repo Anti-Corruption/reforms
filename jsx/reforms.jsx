@@ -4,7 +4,7 @@
 
 var Reforms = React.createClass({
   getInitialState: function() {
-    var apiVersion = 'b4';
+    var apiVersion = 'b5';
     var reformsURL = '/us/' + apiVersion;
 
     $.ajax({
@@ -67,7 +67,7 @@ var ReformsList = React.createClass({
         title={reform.title}
         description={reform.description}
         sponsor={reform.sponsor}
-        billId={reform.bill_id}
+        bills={reform.bills}
         url={reform.url}
         type={reform.reform_type}
         status={reform.reform_status}
@@ -85,7 +85,10 @@ var ReformsList = React.createClass({
 var Reform = React.createClass({
   render: function() {
     var sponsor = this.props.sponsor;
-    sponsorName = [sponsor.title, sponsor.first_name, sponsor.last_name].join(" ");
+    var sponsorName;
+    if (sponsor) {
+      sponsorName = [sponsor.title, sponsor.first_name, sponsor.last_name].join(" ");
+    }
     statusStyle = {
       textTransform: "uppercase",
     };
