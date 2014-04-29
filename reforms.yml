@@ -18,6 +18,7 @@ reforms:
     reform_type: "legislative"
     reform_topic: "matching funds, tax credit, vouchers"
     reform_status: "introduced"
+    parties: ["D"]
   -
     id: 1
     title: "Citizen Involvement in Campaigns Act"
@@ -36,6 +37,7 @@ reforms:
     reform_type: "legislative"
     reform_topic: "tax credit"
     reform_status: "introduced"
+    parties: ["R"]
   -
     id: 2
     title: "The American Anticorruption Act"
@@ -49,6 +51,7 @@ reforms:
     reform_type: "legislative"
     reform_topic: "vouchers & lobbying reform"
     reform_status: "proposed"
+    parties: ["D", "R"]
   -
     id: 3
     slug: "taxation-only-with-representation-act"
@@ -63,6 +66,7 @@ reforms:
     reform_type: "legislative"
     reform_topic: "vouchers"
     reform_status: "proposed"
+    parties: ["R"]
   -
     id: 4
     title: "Fair Elections Now Act"
@@ -72,3 +76,4 @@ reforms:
     reform_type: "legislative"
     reform_topic: "matching funds"
     reform_status: "introduced"
+    parties: ["D"]
