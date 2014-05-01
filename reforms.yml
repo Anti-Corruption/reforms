@@ -22,8 +22,8 @@ reforms:
   -
     id: 1
     title: "Citizen Involvement in Campaigns Act"
-    slug: "citizen-involvement-in-campaigns-act"
-    description: "Tax credit and deductions for small contributions to political campaigns"
+    slug: "citizen-involvement-in-campaigns-act" description: "Tax credit and
+      deductions for small contributions to political campaigns"
     sponsor:
       title: "Rep"
       first_name: "Thomas"
@@ -62,7 +62,7 @@ reforms:
       last_name: "Painter"
       website: "http://www.law.umn.edu/facultyprofiles/painterr.html"
     bills: []
-    url: "http://www.legalethicsforum.com/blog/2012/10/a-tax-cut-for-democracy.html"
+    url: "http://www.legalethicsforum.com/blog/2014/03/federal-and-state-constitutional-amendments-and-statutes-providing-for-taxation-only-with-representa.html"
     reform_type: "legislative"
     reform_topic: "vouchers"
     reform_status: "proposed"
