@@ -22,8 +22,8 @@ reforms:
   -
     id: 1
     title: "Citizen Involvement in Campaigns Act"
-    slug: "citizen-involvement-in-campaigns-act" description: "Tax credit and
-      deductions for small contributions to political campaigns"
+    slug: "citizen-involvement-in-campaigns-act"
+    description: "Tax credit and deductions for small contributions to political campaigns"
     sponsor:
       title: "Rep"
       first_name: "Thomas"
